@@ -9,3 +9,6 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return app.send_static_file("index.html")
+
+# write 'hello world' to the console
+print("Hello World!")
